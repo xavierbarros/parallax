@@ -30,6 +30,54 @@
     <hr>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit veniam eius laboriosam consequatur nihil, debitis quod explicabo quibusdam beatae minus, nulla dolore alias molestias nesciunt excepturi inventore, obcaecati, voluptates ipsam.</p>
+
+    <hr>
+
+    <div class="clothes-pics">
+      <div class="row img-row">
+        <figure class="columns-one">
+          <img src="img/model1.jpg" alt="">
+        </figure>
+
+        <figure class="columns-two">
+          <img src="img/model2.jpg" alt="">
+        </figure>
+
+        <figure class="columns-three">
+          <img src="img/model3.jpg" alt="">
+        </figure>
+      </div>
+
+      <div class="row img-row">
+        <figure class="columns-one">
+          <img src="img/model1.jpg" alt="">
+        </figure>
+
+        <figure class="columns-two">
+          <img src="img/model2.jpg" alt="">
+        </figure>
+
+        <figure class="columns-three">
+          <img src="img/model3.jpg" alt="">
+        </figure>
+      </div>
+
+      <div class="row img-row">
+        <figure class="columns-one">
+          <img src="img/model1.jpg" alt="">
+        </figure>
+
+        <figure class="columns-two">
+          <img src="img/model2.jpg" alt="">
+        </figure>
+
+        <figure class="columns-three">
+          <img src="img/model3.jpg" alt="">
+        </figure>
+      </div>
+    </div>
+
+    <div style="height: 2000px;"></div>
   </article>
 </section>
 

@@ -120,3 +120,36 @@ img {
   margin-left: -480px;
   position: absolute;
   width: 960px; }
+
+.clothes-pics {
+  margin-top: 20px;
+  text-align: center; }
+  .clothes-pics figure {
+    margin-bottom: 20px;
+    opacity: 0;
+    position: relative;
+    transform: translateX(20px);
+    transition: all 0.3s ease-in-out; }
+    .clothes-pics figure.is-showing {
+      opacity: 1;
+      transform: translateX(0); }
+
+.columns-one {
+  float: left; }
+
+.columns-one img {
+  padding-right: 20px; }
+
+.columns-two {
+  float: left; }
+
+.columns-two img {
+  padding-right: 20px; }
+
+.columns-three {
+  float: left; }
+
+.columns-one img, .columns-two img, .columns-three img {
+  display: block;
+  height: 248px;
+  width: 200px; }
