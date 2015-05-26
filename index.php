@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <title></title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link href="css/style.css" rel="stylesheet">
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -17,10 +17,24 @@
 </head>
 <body>
 
+<header class="bird-box">
+  <div class="back-bird"></div>
+  <div class="logo"></div>
+  <div class="fore-bird"></div>
+</header>
+
+<section class="content">
+  <article>
+    <h1>Clothing Store</h1>
+
+    <hr>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit veniam eius laboriosam consequatur nihil, debitis quod explicabo quibusdam beatae minus, nulla dolore alias molestias nesciunt excepturi inventore, obcaecati, voluptates ipsam.</p>
+  </article>
+</section>
 
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

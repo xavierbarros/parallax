@@ -53,24 +53,78 @@
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
  */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
-  margin: 0
-  padding: 0
-  border: 0
-  font-size: 100%
-  font: inherit
-  vertical-align: baseline
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
-  display: block
 
 body
-  line-height: 1
+  margin: 0
+  padding: 0
 
-ol, ul
-  list-style: none
+body
+  font-family: "Open Sans", sans-serif
 
+h1
+  color: #ccc
+  font-size: 60px
+  font-weight: 300
 
-table
-  border-collapse: collapse
-  border-spacing: 0
+figure
+  margin: auto
+
+.content
+  background: #fff
+  margin-bottom: 400px
+  position: relative
+  z-index: 2
+
+  article
+    margin: 0 auto
+    max-width: 640px
+    padding: 100px 0
+    text-align: center
+
+img
+  max-width: 100%
+
+.bird-box
+  background:
+    attachment: fixed
+    image: url(../img/bird-bg.jpg)
+    position: top center
+    size: auto 600px
+  height: 600px
+  overflow: hidden
+  position: relative
+
+.logo
+  background:
+    image: url(../img/black-bird-logo.svg)
+    position: center
+    repeat: no-repeat
+  height: 100px
+  margin-top: -50px
+  position: absolute
+  top: 50%
+  width: 100%
+
+.fore-bird
+  background:
+    image: url(../img/fore-bird.png)
+    position: right bottom
+    repeat: no-repeat
+  height: 733px
+  left: 50%
+  margin-left: -480px
+  position: absolute
+  top: 380px
+  width: 960px
+
+.back-bird
+  background:
+    //color: transparentize(pink, 0.4)
+    image: url(../img/back-bird.png)
+    position: top left
+    repeat: no-repeat
+  height: 298px
+  left: 50%
+  margin-left: -480px
+  position: absolute
+  width: 960px

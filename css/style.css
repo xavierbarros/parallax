@@ -48,13 +48,75 @@
  * MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN/     :MMMMMMMMMMMMMMMMMMMMMMo.mMMMMMMMMMMMMMMMMMMMMMd
  * MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdo.      :MMMMMMMMMMMMMMMMMMNds.  `+hNMMMMMMMMMMMMMMMMMMd
  */
-/** Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) http://cssreset.com */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/*
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+body {
+  margin: 0;
+  padding: 0; }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body {
+  font-family: "Open Sans", sans-serif; }
 
-body { line-height: 1; }
+h1 {
+  color: #cccccc;
+  font-size: 60px;
+  font-weight: 300; }
 
-ol, ul { list-style: none; }
+figure {
+  margin: auto; }
 
-table { border-collapse: collapse; border-spacing: 0; }
+.content {
+  background: white;
+  margin-bottom: 400px;
+  position: relative;
+  z-index: 2; }
+  .content article {
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 100px 0;
+    text-align: center; }
+
+img {
+  max-width: 100%; }
+
+.bird-box {
+  background-attachment: fixed;
+  background-image: url(../img/bird-bg.jpg);
+  background-position: top center;
+  background-size: auto 600px;
+  height: 600px;
+  overflow: hidden;
+  position: relative; }
+
+.logo {
+  background-image: url(../img/black-bird-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  margin-top: -50px;
+  position: absolute;
+  top: 50%;
+  width: 100%; }
+
+.fore-bird {
+  background-image: url(../img/fore-bird.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  height: 733px;
+  left: 50%;
+  margin-left: -480px;
+  position: absolute;
+  top: 380px;
+  width: 960px; }
+
+.back-bird {
+  background-image: url(../img/back-bird.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  height: 298px;
+  left: 50%;
+  margin-left: -480px;
+  position: absolute;
+  width: 960px; }
