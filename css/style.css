@@ -8,11 +8,16 @@ h1 {
 figure {
   margin: auto; }
 
-.content article {
-  margin: 0 auto;
-  max-width: 640px;
-  padding: 100px 0;
-  text-align: center; }
+.content {
+  background: white;
+  margin-bottom: 300px;
+  position: relative;
+  z-index: 2; }
+  .content article {
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 100px 0;
+    text-align: center; }
 
 img {
   max-width: 100%; }
@@ -24,7 +29,8 @@ img {
   background-size: auto 600px;
   height: 600px;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  z-index: 3; }
 
 .logo {
   background-image: url(../img/black-bird-logo.svg);
@@ -64,8 +70,8 @@ img {
     margin-bottom: 20px;
     opacity: 0;
     position: relative;
-    transform: translateX(20px);
-    transition: all 0.3s ease-in-out;
+    transform: translateX(30px);
+    transition: all 0.4s ease-in-out;
     overflow: hidden; }
     .clothes-pics figure.is-showing {
       opacity: 1;
@@ -148,3 +154,16 @@ img {
     z-index: 2; }
   .blog-posts .post-3 {
     transform: translate(-100px, 20px); }
+
+footer {
+  background: black;
+  bottom: 0;
+  color: white;
+  padding: 40px 0;
+  position: fixed;
+  width: 100%; }
+  footer .footer-stuff {
+    margin: 0 auto;
+    max-width: 640px; }
+  footer a {
+    color: white; }
